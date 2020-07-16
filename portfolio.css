@@ -1,0 +1,298 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    background-image: url("./computer-keyboard-34153\ \(1\).jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    height: 40vw;
+}
+nav{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0.3rem;
+}
+a:hover{
+    background-color:  rgb(85, 85, 219);
+    color: white;
+}
+#a{
+    color: black;
+}
+#nav{
+    background-color: white;
+    width: 100%;
+    height: 2rem;
+    position: fixed;
+}
+#sec{
+    padding-top: 5rem;
+     
+} 
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+span{
+    font-size: 28px;
+    font-weight: bold;
+}
+.firstp{
+    color: blue;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+img{ 
+    width: 100%;
+    border:5px dotted white;
+}
+.image{
+width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 50%;
+}
+.he{
+    color: black;
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    padding-bottom:1em ;
+}
+#image{
+    max-width: 100%;
+}
+.sec-image{
+    width: 15rem;
+}
+.sec1{
+    padding-top: 3rem;
+     text-align: center;
+     background-color: rgb(85, 85, 219);
+}
+.scdp{
+    font-size: 15px;
+}
+@media screen and (min-width:768px){
+    .scdp{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    header{
+        height: 85vh;
+    }
+    .img1{
+        transform: translateY(4rem);
+        margin: 0 auto;
+        width: 10rem;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 2rem;
+    }
+    .sec-image{
+        justify-self: center;
+    }
+    .frame{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+     
+    }
+    .frame > div{
+        width: 18rem;
+    }
+    .wrapper{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:768px){
+    header{
+        height: 85vh;
+    }
+    .container{
+       display: flex;
+       justify-content: space-between;
+    }
+    .img1{
+        transform: translateY(5rem);
+        margin:0 auto;
+        width: 10rem;
+    }
+    .frame{
+        display: grid;
+        grid-template-columns:1fr 1fr; 
+        margin-left: 2rem;
+        /* grid-gap: 2rem; */
+     }
+}
+.sec2{
+    background-image: url("./cactus-near-canister-and-box-947845.jpg");
+    background-size: cover;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    margin:0 auto;
+}
+.sec2::before
+{
+    position: absolute;
+    content: "";
+    background-color: black;
+    filter: opacity(50%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.secitem{
+    position: relative;
+    color: white;
+
+}
+.container2{
+   display: grid;
+   grid-template-columns:1fr 1fr; 
+   grid-gap: 35px;
+}
+h2{
+    color: rgb(5, 5, 231);
+    font-size: medium;
+}
+.h2{
+    font-size: xx-large;
+    color: white;
+    text-decoration: underline;
+   
+}
+#work{
+    text-align: center;
+    padding: 1rem;
+}
+u{
+    color: white;
+    padding-right: 1em;
+}
+button{
+    width: 5rem;
+    background-color:  rgb(85, 85, 219);
+    border: none;
+    padding: 0.7rem;
+    color: white;
+    transition:0.3s linear all;
+}
+button:hover{
+    background-color: blue;
+}
+::placeholder{
+    color: rgb(85, 85, 219) ; 
+}
+.frame > div{
+    width: 11rem;
+}
+.fram{
+    width: 100%;
+    background-color: blue;
+}
+.fram h1{
+  color: white;
+  text-decoration: underline;
+  font-size:35px;
+}
+.fram p{
+    color: white;
+    text-align: center;
+}
+.frameimg{
+    border: none;
+    padding: 0.2rem;
+    height: 8rem;
+    width: 100%;
+}
+
+.social{
+    background: rgb(85, 85, 219);
+    border-radius: 50%;
+    margin:2rem;
+    padding: 0.4rem;
+    text-align: center;
+}
+.icon{
+    margin: 1rem 0;
+}
+.form{
+    margin-top: 2rem;
+}
+input{
+    padding: 0.6rem;
+}
+@media screen and (max-width:480px){
+    .img1{
+        transform: translateY(5rem);
+        margin:0 auto;
+        width: 10rem;
+    }
+    .sec1{
+       padding-top: 4rem;
+    }
+    .frame{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    } 
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;   
+    }
+    .sec-image{
+        justify-self: center;
+    }
+    .scdp{
+        padding: 1rem;
+    }
+    .wrapper{
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+    .frameimg{
+      padding-top: 1rem;
+        
+    }
+}
+i{
+    color: white;
+    margin:auto;
+}
+span{
+    color:white;
+}
